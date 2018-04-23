@@ -1,12 +1,12 @@
-/*
- * This example shows how to setup a simple oscillator on pin 13.
- * It oscillates infinitely at 5Hz
- */
-#include <dmtimer.h>
-#include <dmoscillator.h>
+# DMTimer
+An Arduino pin oscillator, based on micros().
 
-DMOscillator *osc = NULL;
+It generates a square signal on the selected pin.
 
+Can genarate signal for a limited duration, a limited number of pulses, or infinitely.
+
+The simplest use could be:
+```cpp
 void setup(){
   /*
    * OscillationMode can be one of [duration, count, infinite]
@@ -19,7 +19,9 @@ void setup(){
 }
 
 void loop(){
-
+  //call update() at every loop
   osc->update();
 
 }
+
+```
