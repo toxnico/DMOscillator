@@ -1,4 +1,4 @@
-# DMTimer
+# DMOscillator
 An Arduino pin oscillator, based on micros().
 
 It generates a square signal on the selected pin.
