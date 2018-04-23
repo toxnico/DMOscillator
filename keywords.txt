@@ -1,0 +1,10 @@
+DMOscillator	KEYWORD1
+dmoscillator	KEYWORD1
+setMode	KEYWORD2
+update	KEYWORD2
+oscillate	KEYWORD2
+oscillateHz	KEYWORD2
+OscillationMode	KEYWORD1
+duration	KEYWORD2
+count	KEYWORD2
+infinite	KEYWORD2
