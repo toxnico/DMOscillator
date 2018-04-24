@@ -1,9 +1,9 @@
 # DMOscillator
-An Arduino pin oscillator, based on micros().
+An Arduino pin oscillator, based on micros(). Depends on [DMTimer](https://github.com/toxnico/DMTimer)
 
 It generates a square signal on the selected pin.
 
-Can genarate signal for a limited duration, a limited number of pulses, or infinitely.
+Can generate signal for a limited duration, a limited number of pulses, or infinitely.
 
 The simplest use could be:
 ```cpp
